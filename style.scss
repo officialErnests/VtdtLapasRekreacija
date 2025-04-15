@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+// required to get $orange variable
+@import "functions";
+@import "variables";
+
+$primary: #661AC3; // set the $primary variable
+
+// merge with existing $theme-colors map
+$theme-colors: map-merge($theme-colors, ("primary": $primary));
+
+// set changes
+@import "bootstrap";
