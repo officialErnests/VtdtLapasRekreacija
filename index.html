@@ -4,52 +4,105 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VTDT</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/cfe1cd_7881fabba5e143aa9fa108d68e606379%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/cfe1cd_7881fabba5e143aa9fa108d68e606379%7Emv2.jpg" type="image/jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container-fluid vh-100 bg-primary">
-      <div class="row h-100">
-        <div class="d-flex col-3 text-center flex-column justify-content-between">
-          <div>
-            <h1 class="pt-5 mb-5">VTDT</h1>
-            <p>Mūsu skola</p>
-            <p>Uzņemšana</p>
-            <p>Audzēkņiem</p>
-            <p>Pieaugušiem</p>
+    <div class="container-fluid vh-100">
+      <div class="row h-100 mainBox">
+        <div class="col-3 sideTab">
+          <h1>VTDT</h1>
+          <div class="d-flex flex-column">
+            <button>Mūsu skola</button>
+            <button>Uzņemšana</button>
+            <button>Audzēkņiem</button>
+            <button>Pieaugušiem</button>
           </div>
-          <div>
-            <button class="mb-5">Stundu saraksts</button>
-          </div>
+          <h2 class="StunduSaraksts">
+            Stundu saraksts
+          </h2>
         </div>
-        <div class="col-9">
-          <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-            <a class="navbar-brand" href="#">VTDT</a>
-            <ul class="nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading1">Jaunumi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading2">Iestāšanās</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading3">Sazināšanās</a>
-              </li>
-            </ul>
-          </nav>
-          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-            <h4 id="scrollspyHeading1">First heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading2">Second heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading3">Third heading</h4>
-            <p>...</p>
+        <div class="col-9 mainContents">
+          <div class="bg">
+          </div>
+          <div class="d-flex flex-column container-fluid Temp">
+            <div class="row justify-content-center Title">
+              <h1 class="col col-9">VTDT aktuālitātes</h1>
+            </div>
+            <div class="row justify-content-center Paragraph FlexParagraph align-items-center">
+              <img src="https://static.wixstatic.com/media/66c832_c7477ed528f944fab4b936220f29d890~mv2.png/v1/fill/w_1640,h_389,al_c,q_95,enc_avif,quality_auto/66c832_c7477ed528f944fab4b936220f29d890~mv2.png" alt="">
+              <a href="https://www.vtdt.lv/uznemsana">PIETEIKTIES</a>
+            </div>
+            <div class="row justify-content-center Title">
+              <h1 class="col col-9">Kas jauns VTDT?</h1>
+            </div>
+            <div class="row Paragraph" style="display: block;">
+              <h1>Profesiju "switch"</h1>
+              <div>
+                <img src="https://static.wixstatic.com/media/66c832_465371da13784067870954e90ee58292~mv2.jpg/v1/fill/w_740,h_555,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/66c832_465371da13784067870954e90ee58292~mv2.jpg" alt="" align="right">
+                <p>Šodien, 7. maijā, Vidzemes Tehnoloģiju un dizaina tehnikuma jauniešiem uz īsu brīdi tika dota iespēja mainīt savu profesiju, iejūtoties un izzinot citas tehnikumā apgūstamās profesijas ikdienu.
+                  Profesiju maiņu uzsāka pirmā kursa augkopības tehniķi, kuri iejutās pavāru amatā.<span>...</span> <span style="display: none;">Viņu šīsdienas uzdevums bija dažādu garšu pankūku pagatavošana, cepot tās uz atklātas uguns. Tajā pašā laikā topošie pavāri izmēģināja augkopības tehniķa ikdienu, stādot (piķējot) samtenes kopā ar mazajiem viesiem – Priekuļu pirmskolas izglītības iestādes "Mežmaliņa" grupiņu. Par kopīgi paveikto darbu bērniem un jauniešiem tika sarūpēts īpašs pārsteigums – iespēja satikt mīļo un pūkaino trusīti Džeku!
+                  Lauksaimniecības nozares izzināšana turpinājās ar iespēju tuvāk aplūkot un pat izbraukt ar tehnikuma traktoriem un graudu kombainu – piedzīvojums, kas sajūsmināja gan mazos, gan lielos!
+                  Profesiju maiņas aktivitātēs piedalījās arī arhitektūras tehniķi un autovirsbūvju remontatslēdznieki. Pirmā kursa autovirsbūvju remontatslēdznieki iepazinās ar rasēšanas programmatūras pamatiem, savukārt arhitektūras tehniķi apguva automašīnu uzbūves pamatzināšanas. Viņi paši mēģināja noteikt eļļas līmeni, veikt ratu balansēšanu, kā arī iepazina salona tīrīšanas nianses un citus praktiskus uzdevumus.
+                  Dienas izskaņā varēja nogaršot augkopības tehniķu gatavotās pankūkām un dalīties iespaidos. Visi atzina, ka šī bijusi vērtīga diena, kas palīdzējusi labāk izprast gan citas profesijas, gan paša izvēlēto jomu. Un daudziem prātā palika doma: “Tomēr esmu izvēlējies sev piemērotāko profesiju!”
+                  Liels prieks arī par PII "Mežmaliņa" bērniem, kuri ar patiesu interesi iesaistījās aktivitātēs. Ceram, ka šī diena viņiem kļuva par pozitīvu pirmo iespaidu par lauksaimniecību – iespējams, tieši šeit aizsākās kāda nākotnes lauksaimnieka ceļš!</span><button onclick="ReadMore(this)" >Lasīt vairāk</button></p>
+              </div>
+            </div>
+            <div class="row Paragraph" style="display: block;">
+              <h1>Francijas jaunieši praksē Cēsīs</h1>
+              <div>
+                <img src="https://static.wixstatic.com/media/66c832_7b2bce978503485e99af0f4089eb9512~mv2.jpg/v1/fill/w_740,h_762,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/66c832_7b2bce978503485e99af0f4089eb9512~mv2.jpg" alt="" align="right">
+                <p>Turpinām aktīvi iesaistīties Erasmus+ programmas projektos, gan dodoties uz citām Eiropas valstīm, gan uzņemot pie sevis ārzemju jauniešus un pedagogus.<span>...</span> <span style="display: none;">Šā gada maijā Cēsīs un Priekuļos viesojas divi jaunieši no Francijas vidusskolas Lycée Gaudier-Brzeska, kuri apgūst namdara profesiju, kā arī pavadošais skolotājs. Viņu uzturēšanās Latvijā notiek Erasmus+ mobilitātes ietvaros.
+                  Prakses laikā jaunieši gūst profesionālo pieredzi Cēsu uzņēmumā SIA "Shaman Inventions", kas specializējas radošu un kvalitatīvu koka izstrādājumu radīšanā.
+                  Mobilitātes programma ne tikai palīdz paplašināt viņu praktiskās iemaņas un izpratni par darba vidi Latvijā, bet arī veicina starpkultūru komunikāciju un sadarbību. Brīvajā laikā jaunieši iepazīst Latvijas kultūru, tradīcijas un skaistākās vietas, gūstot neaizmirstamu pieredzi un jaunus iespaidus.</span><button onclick="ReadMore(this)" >Lasīt vairāk</button></p>
+              </div>
+            </div>
+            <div class="row Paragraph" style="display: block;">
+              <h1>Ceļamaize SkillsLatvia 2025 dalībniekiem</h1>
+              <div>
+                <img src="https://static.wixstatic.com/media/66c832_a4b020a699654b7dabdfc9d61f63c6b3~mv2.jpg/v1/fill/w_740,h_534,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/66c832_a4b020a699654b7dabdfc9d61f63c6b3~mv2.jpg" alt="" align="right">
+                <p>TŠodien ar spēka vārdiem, uzmundrinājumiem un veiksmes vēlējumiem tika pavadīti Vidzemes Tehnoloģiju un dizaina tehnikuma (VTDT) jaunieši – astoņi nacionālā jauno profesionāļu meistarības konkursa SkillsLatvia 2025 finālisti, kā arī divi EuroSkills atlases konkursa dalībnieki. Jau rīt viņi dosies uz Rīgu, uz Ķīpsalas izstāžu halli, kur līdz 10. maijam norisināsies Latvijā lielākais notikums profesionālajā izglītībā.<span>...</span> <span style="display: none;">
+                  VTDT SkillsLatvia 2025 finālā pārstāvēs:
+                  Ričards Vasiļjevs un Adrians Fiļimonovs prasmju konkursā “Flīzēšana”;
+                  Sandijs Pētersons prasmju konkursā “Datortīklu administrēšana”;
+                  Raivo Ķinne prasmju konkursā “Web tehnoloģijas”;
+                  Elizabete Apine prasmju konkursā “Tērpu dizains”;
+                  Dāvis Kārkliņš prasmju konkursā “Elektriskās instalācijas”;
+                  Roberts Tučs prasmju konkursā “Sausā būve un apdare”;
+                  Jānis Pomaskovs prasmju konkursā “Mēbeļu izgatavošana”.
+                  Savukārt prasmju konkursa “Mēbeļu izgatavošana” SkillsLatvia 2023 uzvarētājs Edgars Kristiāns Prokofjevs un SkillsLatvia 2024 uzvarētājs Mārtiņš Plaudis cīnīsies par iespēju pārstāvēt Latviju konkursā EuroSkills 2025.
+                  Lai visiem dalībniekiem izturība, pārliecība un radošs gars – mēs lepojamies ar jums un turam īkšķus!
+                  Aicinām ikvienu interesentu atbalstīt VTDT jaunos profesionāļus un iepazīt dažādas profesijas konkursa dienās – 8. un 9. maijā no plkst. 9.00 līdz 17.00, Ķīpsalas izstāžu centrā.</span><button onclick="ReadMore(this)" >Lasīt vairāk</button></p>
+              </div>
+            </div>
+            <div class="row Paragraph justify-content-center">
+              <a href="https://www.vtdt.lv/kasjauns">Vairāk jaunumi</a>
+            </div>
+            <div class="row justify-content-center Title">
+              <h1 class="col col-9">Kāpēc mācīties VTDT?</h1>
+            </div>
+            <div class="row Paragraph justify-content-center">
+              <p>Kura būs pieprasītākā profesija pēc 5, 10, 20 gadiem? To nekad nevar zināt, bet skaidrs ir viens - Vidzemes Tehnoloģiju un dizaina tehnikumā, paralēli vidējās izglītības iegūšanai, Tu vari kļūt par profesionāli kādā no mūsu piedāvātajām mācību programmām! Mēs piedāvājam gan klasiskas vērtības, gan mūsdienīgas pieejas. Mēs izmantojam jaunākās tehnoloģijas un dizaina domāšanu, un esam pārliecināti, ka šīs prasmes būs nepieciešamas arī pēc 50 un 100 gadiem! Iepazīsti Vidzemes Tehnoloģiju un dizaina tehnikumu un izvēlies, par kādu profesionāli vēlies kļūt Tu! Tiekamies #VTDT - #Šaubu nav!</p>
+              <a href="https://www.vtdt.lv/profesijas">Izvēlies profesiju!</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-
+    <script>
+      function ReadMore(element) {
+        if (element.innerText == "Lasīt mazāk") {
+          element.innerText = "Lasīt vairāk"
+          element.previousElementSibling.style.display = "none";
+          element.previousElementSibling.previousElementSibling.style.display = "inherit";
+        } else {
+          element.previousElementSibling.previousElementSibling.style.display = "none";
+          element.previousElementSibling.style.display = "inherit";
+          element.innerText = "Lasīt mazāk"
+        }
+      }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,12 +1,147 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
-// required to get $orange variable
-@import "functions";
-@import "variables";
-
-$primary: #661AC3; // set the $primary variable
-
-// merge with existing $theme-colors map
-$theme-colors: map-merge($theme-colors, ("primary": $primary));
-
-// set changes
-@import "bootstrap";
+// Light mode
+// background-color: #A55CFF; primary
+// background-color: #9238FF; secondary 
+// background-color: #661AC3; main bg and button bg
+// Dark mode
+// background-color: #492A74; primary
+// background-color: #321358; secondary 
+// background-color: #1B0734; main bg and button bg
+body {
+    background-color: #661AC3;
+    color:white;
+    overflow: hidden;
+    .mainBox{
+        overflow: hidden;
+        height: 100vh;
+        .sideTab {
+            background-color: #A55CFF;
+            box-shadow: 0px 0px 5px black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+            h1 {
+                text-align: center;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 4vw;
+                box-shadow: 0px 0px 4px black;
+            }
+            div {
+                button {
+                    margin-bottom: 10px;
+                    border: none;
+                    background-color: transparent;
+                    color: white;
+                    font-size: 2vw;
+                    // box-shadow: 0px 0px 2px black;
+                    transition: 0.1s;
+                }
+                button:hover {
+                    // box-shadow: 0px 0px 5px black;
+                    font-size: 2.1vw;
+                    transition: 0.1s;
+                }
+                button:nth-child(4) {
+                    margin-bottom: 30vh;
+                }
+            }
+            .StunduSaraksts {
+                border: 5px solid;
+                border-color: #851EFE;
+                border-radius: 12px;
+                padding: 2px;
+                text-align: center;
+            }
+        }
+        .mainContents {
+            padding: 0;
+            height: 100vh;
+            // overflow: hidden;
+            .bg {
+                z-index: -10;
+                background-color: #9238FF;
+                height: 100vh;
+                width: 100%;
+                transform: skewY(-20deg);
+                position: absolute;
+                box-shadow: 0px 0px 5px black;
+            }
+            .Temp::-webkit-scrollbar {
+                display: none;
+            }
+            .Temp {
+                padding: 20px;
+                overflow-y: scroll;
+                height: 100vh;
+                .Title {
+                    text-align: center;
+                    box-shadow: 0px 0px 5px black;
+                    background-color: #be5cff;
+                    margin-top: 100px;
+                    margin-bottom: 20px;
+                    h1 {
+                        font-size: 3rem;
+                    }
+                }
+                .Title:nth-child(1) {
+                    margin-top: 0;
+                }
+                .Paragraph{
+                    box-shadow: 0px 0px 5px black;
+                    background-color: #A55CFF;
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    h1 {
+                        text-align: center;
+                        font-size: 2rem;
+                    }
+                    p {
+                        font-size: 1.5rem;
+                    }
+                    a {
+                        width: 200px;
+                        border: #661AC3 solid 2px;
+                        border-radius: 10px;
+                        background-color: #851EFE;
+                        padding: 10px;
+                        color: white;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+                    div {
+                        img {
+                            width: 20%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                    button {
+                        width: 100px;
+                        border: #661AC3 solid 2px;
+                        border-radius: 10px;
+                        background-color: #851EFE;
+                        padding: 5px;
+                        color: white;
+                        text-decoration: none;
+                        text-align: center;
+                        font-size: 12pt;
+                    }
+                }
+                .FlexParagraph {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+        }
+        .header {
+            border: 5px solid black;
+            background-color: #A55CFF;
+        }
+        .newsTab{
+            border: 5px solid black;
+            background-color: #A55CFF;
+        }
+    } //one eggs one eggs
+}

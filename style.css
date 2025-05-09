@@ -1,0 +1,133 @@
+body {
+  background-color: #661AC3;
+  color: white;
+  overflow: hidden;
+}
+body .mainBox {
+  overflow: hidden;
+  height: 100vh;
+}
+body .mainBox .sideTab {
+  background-color: #A55CFF;
+  box-shadow: 0px 0px 5px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+body .mainBox .sideTab h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 4vw;
+  box-shadow: 0px 0px 4px black;
+}
+body .mainBox .sideTab div button {
+  margin-bottom: 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 2vw;
+  transition: 0.1s;
+}
+body .mainBox .sideTab div button:hover {
+  font-size: 2.1vw;
+  transition: 0.1s;
+}
+body .mainBox .sideTab div button:nth-child(4) {
+  margin-bottom: 30vh;
+}
+body .mainBox .sideTab .StunduSaraksts {
+  border: 5px solid;
+  border-color: #851EFE;
+  border-radius: 12px;
+  padding: 2px;
+  text-align: center;
+}
+body .mainBox .mainContents {
+  padding: 0;
+  height: 100vh;
+}
+body .mainBox .mainContents .bg {
+  z-index: -10;
+  background-color: #9238FF;
+  height: 100vh;
+  width: 100%;
+  transform: skewY(-20deg);
+  position: absolute;
+  box-shadow: 0px 0px 5px black;
+}
+body .mainBox .mainContents .Temp::-webkit-scrollbar {
+  display: none;
+}
+body .mainBox .mainContents .Temp {
+  padding: 20px;
+  overflow-y: scroll;
+  height: 100vh;
+}
+body .mainBox .mainContents .Temp .Title {
+  text-align: center;
+  box-shadow: 0px 0px 5px black;
+  background-color: #be5cff;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+body .mainBox .mainContents .Temp .Title h1 {
+  font-size: 3rem;
+}
+body .mainBox .mainContents .Temp .Title:nth-child(1) {
+  margin-top: 0;
+}
+body .mainBox .mainContents .Temp .Paragraph {
+  box-shadow: 0px 0px 5px black;
+  background-color: #A55CFF;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+body .mainBox .mainContents .Temp .Paragraph h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+body .mainBox .mainContents .Temp .Paragraph p {
+  font-size: 1.5rem;
+}
+body .mainBox .mainContents .Temp .Paragraph a {
+  width: 200px;
+  border: #661AC3 solid 2px;
+  border-radius: 10px;
+  background-color: #851EFE;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+body .mainBox .mainContents .Temp .Paragraph div img {
+  width: 20%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+body .mainBox .mainContents .Temp .Paragraph button {
+  width: 100px;
+  border: #661AC3 solid 2px;
+  border-radius: 10px;
+  background-color: #851EFE;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12pt;
+}
+body .mainBox .mainContents .Temp .FlexParagraph {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .mainBox .header {
+  border: 5px solid black;
+  background-color: #A55CFF;
+}
+body .mainBox .newsTab {
+  border: 5px solid black;
+  background-color: #A55CFF;
+}/*# sourceMappingURL=style.css.map */
